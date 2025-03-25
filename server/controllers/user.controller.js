@@ -1,6 +1,6 @@
-import { ApiResponse } from "../config/ApiResponse";
-import { asyncHandler } from "../config/asyncHandler";
-import User from "../models/user.model";
+import { ApiResponse } from "../config/ApiResponse.js";
+import { asyncHandler } from "../config/asyncHandler.js";
+import User from "../models/user.model.js";
 import jwt from "jsonwebtoken"
 
 const generateToken = (user) => {

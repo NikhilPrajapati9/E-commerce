@@ -31,7 +31,7 @@ const OrderSchema = new Schema({
             "Cancelled"
         ],
         default: "Order Placed",
-        required: ture
+        required: true
     },
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }

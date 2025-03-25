@@ -1,12 +1,11 @@
-import orders from "razorpay/dist/types/orders.js";
 import { ApiResponse } from "../config/ApiResponse.js";
 import { asyncHandler } from "../config/asyncHandler.js";
-import Razorpay from "razorpay"
+import Razorpay from 'razorpay';
 import crypto from "crypto"
 import { ApiError } from "../config/ApiError.js";
 import Transaction from "../models/transaction.model.js";
 import Order from "../models/order.model.js";
-import products from "razorpay/dist/types/products.js";
+
 
 
 

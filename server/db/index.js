@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
+import { DB_NAME } from "../constant.js";
 
-const DB_NAME = "ekart";
 
 const connectDB = async () => {
     try {
